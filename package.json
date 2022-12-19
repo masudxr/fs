@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "git-install": "^0.5.2",
+    "npm-git-install": "^0.3.0"
+  },
+  "name": "masud",
+  "version": "1.0.0",
+  "description": "fun",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

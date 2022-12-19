@@ -1,0 +1,13 @@
+{
+  "name": "masud",
+  "version": "1.0.0",
+  "description": "File System",
+  "main": "fs.js",
+  "scripts": {
+  "test": "nodemon fs.js",
+  "start": "nodemon fs.js"
+  },
+  "author": "Masud",
+  "license": "ISC",
+  "type": "module"
+  }

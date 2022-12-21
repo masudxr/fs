@@ -26,6 +26,8 @@ const filewrite = (file, content) => {
         })
     })
 };
+// call new promise function within the async function using await. and send path name and content data.
+// using for loop to send the content data 1 by 1. loop call the promise function as length
 async function writecall(data) {
     // console.log('data:', data)
     for (let i = 0; i < data.length; i++) {
@@ -35,6 +37,7 @@ async function writecall(data) {
         await filewrite('mov2.csv', content);
     }
 }
+// send Array of object data.
 writecall(data).catch((err) => {
     console.log('error:', err)
 })
